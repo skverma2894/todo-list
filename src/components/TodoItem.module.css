@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  background-color: white;
+  margin: 6px 4px;
+  height: 45px;
+  border-radius: 12px;
+  background-color: #d8e9a8;
+}
+
+p {
+  flex: 1;
+  border-radius: 10px;
+  padding-left: 20px;
+
+  /* font-weight: 500; */
+}
+
+.delete__btn {
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  background-color: #4e9f3d;
+  font-weight: 700;
+}
+
+.delete__btn:hover {
+  background-color: rgb(212, 46, 46);
+  cursor: pointer;
+}
